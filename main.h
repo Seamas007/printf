@@ -43,7 +43,7 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /* FUNCTIONS */
 
-/* Funtions to print chars and strings */
+/* Funtions to print the chars and the strings */
 int print_char(va_list types, char buffer[],
 int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[],
@@ -51,7 +51,7 @@ int flags, int width, int precision, int size);
 int print_percent(va_list types, char buffer[],
 int flags, int width, int precision, int size);
 
-/* Functions to print numbers */
+/* Functions to print the numbers */
 int print_int(va_list types, char buffer[],
 int flags, int width, int precision, int size);
 int print_binary(va_list types, char buffer[],
@@ -104,7 +104,7 @@ int write_unsgnd(int is_negative, int ind,
 char buffer[],
 int flags, int width, int precision, int size);
 
-/* UTILS */
+/* UTILS.c */
 int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
